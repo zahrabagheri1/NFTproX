@@ -1,9 +1,12 @@
+import Navbar from '@/components/Navbar/Navbar'
 import React from 'react'
 
-function HomePage() {
+const index = () => {
   return (
-    <div className='text-xl text-red-900'>HomePage</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
-export default HomePage
+export default index
