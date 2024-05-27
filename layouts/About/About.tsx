@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import aboutImaage from "../../public/images/NFT-Token.jpg";
+import aboutImaage from "@/public/images/NFT-Token.jpg";
 
 const About = () => {
   return (

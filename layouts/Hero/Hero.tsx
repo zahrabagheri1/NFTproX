@@ -1,5 +1,5 @@
 import React from "react";
-import nftRight from "../../public/images/nft-icon.png";
+import nftRight from "@/public/images/nft-icon.png";
 import Image from "next/image";
 
 const Hero = () => {
