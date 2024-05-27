@@ -1,10 +1,9 @@
 import NftCard from "@/components/NftCard/NftCard";
-
 import React from "react";
 
 const PopularNFT = () => {
   return (
-    <div className="pt-[5rem] pd-[3rem] bg-gradient-to-b from-[#40538f]  to-[#223470]">
+    <div className="pt-[5rem] pd-[3rem] bg-gradient-to-b from-[#40538f]  to-[#203169]">
       <div className="text-center">
         <p className="heading__mini">Popular Item</p>
         <h1 className="heading__primary">
