@@ -1,3 +1,4 @@
+import About from '@/layouts/About/About'
 import Hero from '@/layouts/Hero/Hero'
 import Navbar from '@/layouts/Navbar/Navbar'
 import React from 'react'
@@ -7,7 +8,7 @@ const index = () => {
     <div>
       <Navbar/>
       <Hero/>
-
+      <About/>
     </div>
   )
 }
