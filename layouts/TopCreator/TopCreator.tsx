@@ -15,13 +15,19 @@ const TopCreator = () => {
           <CreatorCard image={"AvatarOne"} user={"Douglas Williams"} price={"734.5"} />
         </div>
         <div className="">
-          <CreatorCard image={"AvatarOne"} user={"James White"} price={"734.5"} />
+          <CreatorCard image={"AvatarTwo"} user={"James White"} price={"804.5"} />
         </div>
         <div className="">
-          <CreatorCard image={"AvatarOne"} user={"Clarence Wheeler"} price={"734.5"} />
+          <CreatorCard image={"AvatarThree"} user={"Clarence Wheeler"} price={"624.5"} />
         </div>
         <div className="">
-          <CreatorCard image={"AvatarOne"} user={"Beverly Perry"} price={"734.5"} />
+          <CreatorCard image={"AvatarFour"} user={"Beverly Perry"} price={"948.5"} />
+        </div>
+        <div className="">
+          <CreatorCard image={"AvatarFive"} user={"John Kennedy"} price={"325.5"} />
+        </div>
+        <div className="">
+          <CreatorCard image={"AvatarSix"} user={"Sarah Perry"} price={"764.5"} />
         </div>
       </div>
     </div>
