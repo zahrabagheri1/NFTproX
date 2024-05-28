@@ -1,5 +1,5 @@
 import React from "react";
-import CreatorCard from "../CreatorCard/CreatorCard";
+import CreatorCard from "../../components/CreatorCard/CreatorCard";
 
 const TopCreator = () => {
   return (

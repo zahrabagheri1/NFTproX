@@ -8,11 +8,18 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center w-[88%] mx-auto gap-[10rem]">
         <div className="flex flex-col gap-10 mt-[2rem] sm:mt-0">
           <div className="">
-            <h1 className="ttext-[30px] md:text-[40px] lg:text-[50px] leading-[2rem] sm:leading-[4rem] text-white">
+            <h1
+              data-aos="fade-right"
+              className="ttext-[30px] md:text-[40px] lg:text-[50px] leading-[2rem] sm:leading-[4rem] text-white"
+            >
               {" "}
               Sell Your Real Nfts & Earn Money
             </h1>
-            <p className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px]">
+            <p
+              data-aos="fade-left"
+              data-aos-delay="200"
+              className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px]"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
               laudantium illo! Inventore quo ex dolorum, animi minus fugiat quae
               cupiditate sint voluptates, quam quaerat ea libero veniam
@@ -20,7 +27,10 @@ const Hero = () => {
             </p>
           </div>
 
-          <button className="relative inline-block text-lg group">
+          <button
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            className="relative inline-block text-lg group">
             <span className="relative z-10 block px-5 py-3 h-12 w-40 overflow-hidden font-medium leading-tight text-white transition-colors duration-300 ease-out rounded-lg group-hover:text-white">
               <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-[#19215def]"></span>
               <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-[#1100ff6d] group-hover:-rotate-180 ease"></span>
@@ -28,7 +38,9 @@ const Hero = () => {
             </span>
           </button>
         </div>
-        <div className="hidden sm:block sm:auto lg:mx-0">
+        <div data-aos="fade-left"
+          data-aos-delay="600"
+          className="hidden sm:block sm:auto lg:mx-0">
           <Image
             src={nftRight}
             alt="hero"
