@@ -7,6 +7,8 @@ const About = () => {
     <div className="pt-[5rem] pb-[3rem] bg-gradient-to-b from-[#000000af]  to-[#324270]">
       <div className="w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 items-center gap-[3rem]">
         <div
+          data-aos="zoom-in"
+          data-aos-achor-placement="top-center"
           className="md:w-[500px] md:h-[600px] w-[80%] h-[80%] border-[3px] flex items-center justify-center
             border-gray-400 rounded-lg"
         >
