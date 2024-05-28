@@ -11,7 +11,7 @@ const PopularNFT = () => {
         </h1>
       </div>
       <div className="w-[80%] pt-[5rem] mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[1.5rem]">
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center">
           <NftCard
             image={"ArtMonkeyFive"}
             title={"Warriros"}
@@ -19,7 +19,7 @@ const PopularNFT = () => {
             price={"3.25"}
           />
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center" data-aos-delay="100">
           <NftCard
             image={"ArtMonkeyNine"}
             title={"Meata Forted"}
@@ -27,7 +27,7 @@ const PopularNFT = () => {
             price={"5.25"}
           />
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center" data-aos-delay="200">
           <NftCard
             image={"ArtMonkeySix"}
             title={"Forted"}
@@ -35,7 +35,7 @@ const PopularNFT = () => {
             price={"8.25"}
           />
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center" data-aos-delay="300">
           <NftCard
             image={"ArtMonkeyTwo"}
             title={"Forted Eatern"}
@@ -43,7 +43,7 @@ const PopularNFT = () => {
             price={"6.25"}
           />
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center" data-aos-delay="400">
           <NftCard
             image={"ArtMonkeyThree"}
             title={"Eastern"}
@@ -51,7 +51,7 @@ const PopularNFT = () => {
             price={"10.25"}
           />
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-achor-placement="top-center" data-aos-delay="500">
           <NftCard
             image={"ArtMonkeyOne"}
             title={"Eastern"}
