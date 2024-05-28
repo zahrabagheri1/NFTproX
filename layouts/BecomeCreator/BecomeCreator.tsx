@@ -16,7 +16,10 @@ const BecomeCreator = () => {
         </h1>
       </div>
       <div className="w-[80%] m-auto mt-[5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[3rem]">
-        <div className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
+        <div
+          data-aos="fade-right"
+          data-aos-achor-placement="top-center"
+          className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
           <RocketLaunchIcon className="w-[4rem] h-[4rem] mt-[1.5rem] text-[#a4ccef]" />
           <h1 className="mt-[1rem] text-[20px] text-white">
             Setup Your Wallet
@@ -30,7 +33,11 @@ const BecomeCreator = () => {
           </button>
         </div>
 
-        <div className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
+        <div
+          data-aos="fade-right"
+          data-aos-achor-placement="top-center"
+          data-aos-delay="100"
+          className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
           <ChartPieIcon className="w-[4rem] h-[4rem] mt-[1.5rem] text-[#efe4a4] " />
           <h1 className="mt-[1rem] text-[20px] text-white">
             Setup Your Wallet
@@ -44,7 +51,11 @@ const BecomeCreator = () => {
           </button>
         </div>
 
-        <div className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
+        <div
+          data-aos="fade-right"
+          data-aos-achor-placement="top-center"
+          data-aos-delay="200"
+          className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
           <InformationCircleIcon className="w-[4rem] h-[4rem] mt-[1.5rem] text-[#a4efa4]" />
           <h1 className="mt-[1rem] text-[20px] text-white">
             Setup Your Wallet
@@ -58,7 +69,11 @@ const BecomeCreator = () => {
           </button>
         </div>
 
-        <div className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
+        <div
+          data-aos="fade-right"
+          data-aos-achor-placement="top-center"
+          data-aos-delay="300"
+          className="bg-[#1a184769] hover:bg-[#1A225C] transition-all cursor-pointer duration-300 rounded-md p-4">
           <PresentationChartBarIcon className="w-[4rem] h-[4rem] mt-[1.5rem] text-[#d6a4ef]" />
           <h1 className="mt-[1rem] text-[20px] text-white">
             Setup Your Wallet
