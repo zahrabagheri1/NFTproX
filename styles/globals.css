@@ -10,4 +10,8 @@
   .heading__primary {
     @apply text-[25px] md:text-[30px] lg:text-[35px] xl:text-[45px] leading-[2.5rem] md:leading-[3.5rem] text-white;
   }
+
+  .footer__linke {
+    @apply text-white text-[15px] mb-[1rem] w-fit cursor-pointer hover:text-yellow-400;
+  }
 }

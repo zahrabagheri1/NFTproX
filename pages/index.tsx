@@ -5,9 +5,20 @@ import LiveBiding from "@/layouts/LiveBiding/LiveBiding";
 import Navbar from "@/layouts/Navbar/Navbar";
 import PopularNFT from "@/layouts/PopularNFT/PopularNFT";
 import TopCreator from "@/layouts/TopCreator/TopCreator";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Footer from "@/layouts/Footer/Footer";
 
 const index = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease",
+      once: true,
+      anchorPlacement: "top-bottom",
+    });
+  }, []);
   return (
     <div>
       <Navbar />
@@ -17,6 +28,7 @@ const index = () => {
       <PopularNFT />
       <LiveBiding />
       <TopCreator />
+      <Footer />
     </div>
   );
 };
